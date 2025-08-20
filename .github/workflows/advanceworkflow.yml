@@ -6,7 +6,7 @@ on:
 
 jobs:
   firstjob:
-    runs-on: ubuntu-hosted
+    runs-on: ubuntu-latest
     steps: 
      - name: firstjob Script
        shell: sh
